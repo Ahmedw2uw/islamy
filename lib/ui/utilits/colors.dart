@@ -5,6 +5,8 @@ abstract final class AppColors{
     static const  wghitgold=Color(0xffFEFFE8);
 
   static const  black=Color(0xff202020);
+    static const  blackWithOpacity60 =Color(0x99202020);
+
   static const  wight=Color(0xffFFFFFF);
   
 
