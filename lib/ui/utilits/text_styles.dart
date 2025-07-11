@@ -7,6 +7,16 @@ abstract final class AppStyles {
     fontSize: 20,
     fontWeight: FontWeight.bold,
   );
+  static const TextStyle wightBold24 = TextStyle(
+    color: AppColors.wight,
+    fontSize: 24,
+    fontWeight: FontWeight.bold,
+  );
+  static const TextStyle wightBold30 = TextStyle(
+    color: AppColors.wight,
+    fontSize: 30,
+    fontWeight: FontWeight.bold,
+  );
   static const TextStyle wightBold14 = TextStyle(
     color: AppColors.wight,
     fontSize: 14,

@@ -1,7 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:islamy/ui/screens/hadeth_details/hadeth_details.dart';
 import 'package:islamy/ui/screens/home/home.dart';
+import 'package:islamy/ui/screens/home/tabs/intro_screens/intro_1.dart';
 import 'package:islamy/ui/screens/splach/splach.dart';
+import 'package:islamy/ui/screens/splach/splach_2.dart';
 import 'package:islamy/ui/screens/sura_details/sura_details_screen.dart';
 import 'package:islamy/ui/utilits/colors.dart';
 import 'package:islamy/ui/utilits/constants.dart';
@@ -25,6 +27,8 @@ class MyApp extends StatelessWidget {
       debugShowCheckedModeBanner: false, //! to remove the debug line
       routes: {
         Splach.roueName: (_) => Splach(),
+        Splach2.routeName: (_) => Splach2(),
+        Intro1.routeName:(_)=> Intro1(),
         Home.roueName: (_) => Home(),
         SuraDetailsScreen.routeName: (_) => SuraDetailsScreen(),
         HadethDetails.routeName: (_) => HadethDetails(),

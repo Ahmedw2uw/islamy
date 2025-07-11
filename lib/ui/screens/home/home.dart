@@ -20,8 +20,8 @@ int selectedIndex = 0; //! to know goe the index or item is selected
 List<Widget> tabs = [
   QuranTab(),
   AhadethTab(),
-  AzkarTab(),
   SephaTab(),
+  AzkarTab(),
   RadioTab(),
 ]; //! list contain of list of tabs
 
